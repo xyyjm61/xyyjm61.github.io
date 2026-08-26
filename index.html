@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>余剑锰 | 信息安全技术 · 运维工程师</title>
+    <meta
+      name="description"
+      content="余剑锰的个人主页：信息安全技术、Linux 系统管理、Docker 容器化、网络诊断与自动化运维。"
+    />
+    <meta
+      name="keywords"
+      content="余剑锰, 信息安全, 运维工程师, Linux, Docker, 个人主页, 杭州"
+    />
+    <meta name="author" content="余剑锰" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0b1220" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' rx='3' fill='%230b1220'/><text x='8' y='11' text-anchor='middle' font-size='8' fill='%2322d3ee'>Y</text></svg>"
+    />
+
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem("portfolio-theme");
+          var theme = saved || "dark";
+          document.documentElement.setAttribute("data-theme", theme);
+        } catch (e) {}
+      })();
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "余剑锰",
+        "url": "https://home.xyyjm61.top",
+        "sameAs": ["https://github.com/xyyjm61"],
+        "jobTitle": "运维工程师"
+      }
+    </script>
+  </head>
+
+  <body>
+    <header class="top">
+      <div class="wrap">
+        <a class="brand" href="#top">余剑锰</a>
+        <nav class="nav" aria-label="页面导航">
+          <a href="#about">简介</a>
+          <a href="#skills">技能</a>
+          <a href="#projects">项目</a>
+          <a href="#experience">经历</a>
+          <a href="#education">教育</a>
+          <a href="#contact">联系</a>
+        </nav>
+        <button
+          id="page-theme"
+          type="button"
+          aria-label="切换深色或浅色主题"
+          title="切换主题"
+        >
+          ◐
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero wrap">
+        <p class="eyebrow">// INFORMATION SECURITY · DEVOPS</p>
+        <h1>余剑锰</h1>
+        <p class="lead">
+          信息安全技术 · 运维工程师（实习）<br />
+          杭州 · 21 岁 · 期望薪资 5-8K
+        </p>
+        <div class="social">
+          <a
+            class="btn btn-accent"
+            href="https://github.com/xyyjm61"
+            target="_blank"
+            rel="noopener"
+            >GitHub</a
+          >
+          <a class="btn" href="mailto:yuxy61@qq.com">邮箱</a>
+          <button class="btn" type="button" data-copy="yu2372751619">
+            复制微信
+          </button>
+          <a class="btn" href="assets/resume-public.pdf" download>下载简历</a>
+        </div>
+        <p class="status" id="copy-status" role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="wrap prose" id="about">
+        <h2 class="section-title">个人简介</h2>
+        <p>
+          我是余剑锰，信息安全技术专业大专在读，拥有 Linux 服务器管理与容器化部署经验。
+          熟悉服务器底层硬件、网络基础、监控告警和常见故障排查，能够独立完成系统巡检、变更发布与应急响应。
+        </p>
+        <p>
+          目前正在寻找杭州的运维、信息安全或基础设施相关岗位，希望把扎实的基础能力和自动化经验带入团队，
+          持续保障服务稳定与安全。
+        </p>
+      </section>
+
+      <section class="wrap" id="skills">
+        <h2 class="section-title">专业技能</h2>
+        <div class="chips">
+          <span class="chip">Linux CentOS/Ubuntu</span>
+          <span class="chip">服务器硬件</span>
+          <span class="chip">网络 TCP/IP</span>
+          <span class="chip">Docker</span>
+          <span class="chip">Docker Compose</span>
+          <span class="chip">Shell</span>
+          <span class="chip">Python</span>
+          <span class="chip">网络诊断 MTR</span>
+          <span class="chip">Prometheus/Zabbix</span>
+          <span class="chip">Crontab</span>
+          <span class="chip">日志分析</span>
+          <span class="chip">故障排查</span>
+        </div>
+      </section>
+
+      <section class="wrap" id="projects">
+        <h2 class="section-title">项目经验</h2>
+        <div class="repo-grid" id="project-cards"></div>
+      </section>
+
+      <section class="wrap" id="experience">
+        <h2 class="section-title">工作经历</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <h3>绍兴滢彩有限公司</h3>
+            <p class="meta">2025.09 - 2026.01 · 运维工程师（实习）</p>
+            <ul class="timeline-list">
+              <li>负责 7x24 小时服务器、网络和应用监控，配置告警阈值并主动识别潜在风险。</li>
+              <li>执行系统上线、更新和配置变更流程，配合审批、灰度发布和回滚预案。</li>
+              <li>处理服务器宕机、服务不可用、网络中断等故障，完成根因定位与恢复操作。</li>
+              <li>定期执行系统巡检、日志分析、备份验证、安全扫描、证书更新和容量评估。</li>
+              <li>使用 Shell/Python 和 Ansible 将重复性工作自动化，提高巡检与发布效率。</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="wrap" id="education">
+        <h2 class="section-title">教育背景</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <h3>杭州职业技术学院</h3>
+            <p class="meta">2023.09 - 2026.06 · 大专 · 信息安全技术</p>
+            <p>系统学习信息安全、网络基础和 Linux 管理相关知识，并在实践项目中积累运维经验。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="wrap" id="contact">
+        <h2 class="section-title">联系方式</h2>
+        <p class="state">欢迎通过以下方式联系我，也可以直接下载简历。</p>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <span class="contact-label">邮箱</span>
+            <strong>yuxy61@qq.com</strong>
+            <a class="repo-link" href="mailto:yuxy61@qq.com">发邮件 →</a>
+          </div>
+          <div class="contact-card">
+            <span class="contact-label">微信</span>
+            <strong>yu2372751619</strong>
+            <button class="repo-link btn-link" type="button" data-copy="yu2372751619">
+              复制微信号 →
+            </button>
+          </div>
+          <div class="contact-card">
+            <span class="contact-label">GitHub</span>
+            <strong>xyyjm61</strong>
+            <a
+              class="repo-link"
+              href="https://github.com/xyyjm61"
+              target="_blank"
+              rel="noopener"
+              >查看主页 →</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bottom">
+      <div class="wrap">
+        <span>&copy; 2026 余剑锰. 保留所有权利。</span>
+        <span>
+          页面基于
+          <a
+            href="https://github.com/brayandiazc/portfolio-template-basic"
+            target="_blank"
+            rel="noopener"
+          >
+            portfolio-template-basic
+          </a>
+          （MIT License）
+        </span>
+      </div>
+    </footer>
+
+    <script type="module" src="assets/js/app.js"></script>
+  </body>
+</html>
